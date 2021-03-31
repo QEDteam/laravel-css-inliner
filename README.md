@@ -6,6 +6,8 @@ Laravel package that is based on Pelago/Emogrifier(link below) php package with 
 
 For installing laravel css inliner, either add qed/laravel-css-inliner to the require section in your project's composer.json, or you can use composer as below:
 
+Latest version should work with Laravel 7 and later
+
 ```
 composer require qed/laravel-css-inliner
 ```

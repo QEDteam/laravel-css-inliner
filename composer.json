@@ -15,6 +15,7 @@
         }
     },
     "require": {
+        "php": ">=7.3",
         "pelago/emogrifier": "5.0"
     },
     "extra": {
