@@ -1,0 +1,27 @@
+{
+    "name": "qed/laravel-css-inliner",
+    "description": "Laravel package that applies inline css format on every email send",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "QED",
+            "email": "info@qedcode.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Qed\\LaravelCssInliner\\": "src/"
+        }
+    },
+    "require": {
+        "pelago/emogrifier": "4.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Qed\\LaravelCssInliner\\LaravelCssInlinerServiceProvider"
+            ]
+        }
+    }
+}
