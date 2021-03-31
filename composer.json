@@ -15,7 +15,7 @@
         }
     },
     "require": {
-        "pelago/emogrifier": "4.0"
+        "pelago/emogrifier": "5.0"
     },
     "extra": {
         "laravel": {
